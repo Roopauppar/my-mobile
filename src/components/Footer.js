@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -17,11 +18,11 @@ const Footer = () => {
 
               <ul className=''>
                 <h4 className='text-white'>UseFull Links</h4>
-                <li><a href='/'>Home</a></li>
-                <li><a href='/products'>Products</a></li>
-                <li><a href='/about'>About</a></li>
-                <li><a href='/contact'>Conatct</a></li>
-                <li><a href='/cart'>Cart</a></li>
+                <li><NavLink to='/'>Home</NavLink></li>
+                <li><NavLink to='/products'>Products</NavLink></li>
+                <li><NavLink to='/about'>About</NavLink></li>
+                <li><NavLink to='/contact'>Conatct</NavLink></li>
+                <li><NavLink to='/cart'>Cart</NavLink></li>
 
 
               </ul>
