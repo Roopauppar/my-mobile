@@ -5,7 +5,7 @@ import  DATA  from "../Data"
 const Product = () => {
     const cardItem = (item) => {
         return (
-            <div className="card mb-5 py-4" key={item.id}style={{width:"18rem" }}>
+            <div className="card col-lg-3 col-md-3  mb-5 py-4" key={item.id}style={{width:"18rem" }}>
                 <img src={process.env.PUBLIC_URL + item.img} className="card-img-top" alt={item.title}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">{item.title}</h5>
