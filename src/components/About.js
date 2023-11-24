@@ -17,7 +17,7 @@ const About = () => {
 
           </div>
           <div className='col-md-6 d-flex justify-content-center'>
-            <img src='/assets/images/about.webp' alt='about-us' height="500px" width="600px" ></img>
+            <img src={process.env.PUBLIC_URL +'/assets/images/about.webp'} alt='about-us' height="500px" width="600px" ></img>
 
           </div>
 
