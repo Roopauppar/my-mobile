@@ -32,7 +32,7 @@ const Footer = () => {
               <ul className=''>
                 <h4 className='text-white pb-4'>Contact Us</h4>
                 <li className='d-flex'> <i class="fa fa-mobile-phone fa-2x px-2" aria-hidden="true"></i><h6 className='text-white pt-1'>: +91 9380683319</h6></li>
-                <li className='d-flex '><i class="fa fa-envelope fa-1x px-2 pt-2" aria-hidden="true"></i><h6 className='text-white pt-1'>: roopauppar@gmail.com</h6></li>
+                <li className='d-flex '><i class="fa fa-envelope fa-1x px-2 pt-2" aria-hidden="true"></i><h6 className='text-white pt-1'>: roopauppar80@gmail.com</h6></li>
                 <li className='d-flex '><i class="fa fa-home fa-1x px-2 pt-2" aria-hidden="true"></i><h6 className='text-white pt-1'>: Bangalore</h6></li>
 
 
