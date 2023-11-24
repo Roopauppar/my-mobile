@@ -14,16 +14,16 @@ const Home = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/assets/images/img3.jpg" className="d-block w-100" alt="iphon" height="500px"/>
+            <img src={process.env.PUBLIC_URL +"/assets/images/img3.jpg"} className="d-block w-100" alt="iphon" height="500px"/>
           </div>
           <div className="carousel-item">
-            <img src="/assets/images/img4.webp" className="d-block w-100" alt="iphon"height="500px"/>
+            <img src={process.env.PUBLIC_URL +"/assets/images/img4.webp"} className="d-block w-100" alt="iphon"height="500px"/>
           </div>
           <div className="carousel-item">
-            <img src="/assets/images/img6.jpg" className="d-block w-100" alt="iphon" height="500px"/>
+            <img src={process.env.PUBLIC_URL +"/assets/images/img6.jpg"} className="d-block w-100" alt="iphon" height="500px"/>
           </div>
           <div className="carousel-item">
-            <img src="/assets/images/img8.jpg" className="d-block w-100" alt="iphon" height="500px"/>
+            <img src={process.env.PUBLIC_URL +"/assets/images/img8.jpg"} className="d-block w-100" alt="iphon" height="500px"/>
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

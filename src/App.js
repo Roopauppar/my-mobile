@@ -16,7 +16,7 @@ import Checkout from './components/Checkout';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/my-mobile">
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />}>
