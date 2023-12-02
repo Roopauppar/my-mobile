@@ -7,7 +7,7 @@ import Cart from './components/Cart';
 import About from './components/About';
 import Contact from './components/Contact';
 // import {Routes, Route } from "react-router-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import ProductDetails from './components/ProductDetails';
 import Checkout from './components/Checkout';
 
@@ -16,7 +16,7 @@ import Checkout from './components/Checkout';
 function App() {
   return (
     <>
-      <BrowserRouter basename="/my-mobile">
+      <HashRouter >
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />}>
@@ -35,7 +35,7 @@ function App() {
           </Route>
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
 
     </>
 
